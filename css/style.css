@@ -36,12 +36,12 @@ main{
   max-height: 110px;
   max-width: 110px;
   box-sizing: border-box;
-  cursor: pointer;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.carta:hover{
+.carta:not(.correta):hover{
+  cursor: pointer;
   border: 5px dotted black;
 }

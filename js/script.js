@@ -27,5 +27,10 @@ for(let i = 0; i < cartas.length; i++){
 setTimeout(function(){
   for(let carta of cartas){
     carta.style.backgroundImage = 'url("imagens/skull.jpg")';
+    carta.onclick = function(){
+      console.log("clicou");
+      carta.style.backgroundImage = `url("imagens/${imagens[Number(carta.id)]}")`;
+      carta.onclick = null;
+    }
   }
 }, 3000);

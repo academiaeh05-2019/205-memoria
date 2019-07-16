@@ -74,7 +74,7 @@ let cartas = document.querySelectorAll(".carta");
 let cartaUm;
 let cartaDois;
 
-let imagensSalvas = ["bretta.png", "cornifer.png", "hornet.png", "king.png", "knight.png", "quirrel.png", "vessel.png", "zote.jpg"];
+let imagensSalvas = ["bretta.png", "cornifer.png", "hornet.png", "king.png", "knight.png", "quirrel.png", "vessel.png", "zote.png"];
 
 let imagens = imagensSalvas.concat(imagensSalvas);
 

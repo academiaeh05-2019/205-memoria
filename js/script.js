@@ -20,6 +20,12 @@ let imagens = imagensSalvas.concat(imagensSalvas);
 
 imagens = embaralhar(imagens);
 
-for(let i in cartas){
+for(let i = 0; i < cartas.length; i++){
   cartas[i].style.backgroundImage = `url("imagens/${imagens[i]}")`;
 }
+
+setTimeout(function(){
+  for(let carta of cartas){
+    carta.style.backgroundImage = 'url("imagens/skull.jpg")';
+  }
+}, 3000);

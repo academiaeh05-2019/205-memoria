@@ -31,12 +31,15 @@ main{
 }
 
 .carta{
-  background-color: white;
   height: 15vw;
   width: 15vw;
   max-height: 110px;
   max-width: 110px;
   box-sizing: border-box;
+  cursor: pointer;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .carta:hover{

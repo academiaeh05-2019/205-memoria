@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.87);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header{
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 10px double white;
+}
+
+h1{
+  color: white;
+}
+
+main{
+  height: calc(100vh - 110px);
+  width: 70vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(auto, calc(15vw + 20px));
+  justify-items: center;
+  align-items: center;
+}
+
+.carta{
+  background-color: white;
+  height: 15vw;
+  width: 15vw;
+  max-height: 110px;
+  max-width: 110px;
+  box-sizing: border-box;
+}
+
+.carta:hover{
+  border: 5px dotted black;
+}
